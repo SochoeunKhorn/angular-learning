@@ -1,0 +1,32 @@
+== Component ==
+1. new component
+  ng generate component component-name
+  ng g c my-component
+2. key elements of component
+  - '@Component' decorator is used to define metadata and configure for the component, such as the selector, template, and styles.
+  @Component({
+    selector: 'app-my-first', // used for in other component needed
+    templateUrl: './my-first.component.html', // link html
+    styleUrls: ['./my-first.component.css']  // link style
+    template: <>HTML</>
+    style: style{}
+    providers:
+    viewProviders:
+    animation:
+  })
+  - class similar to model that store logic, manage data-binding the view and model
+3. data-binding
+  - event binding : event occur from html -> class
+  - data binding  : html -> class
+
+4. two-way data-binding
+  - ngModel  : from FormModule
+
+5. relationship parent - children component
+
+  - @Input :
+    passing data child - parent
+
+  - @Output
+    passing event child - parent
+    + $event

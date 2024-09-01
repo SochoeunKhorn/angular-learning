@@ -1,0 +1,32 @@
+<div class="nav-bar">
+  <a routerLink="/page-1">Page1</a>&nbsp;|&nbsp;
+  <a routerLink="/page-2">Page2</a>&nbsp;|&nbsp;
+  <a routerLink="/page-3">Page3</a>&nbsp;|&nbsp;
+  <a routerLink="">Home</a>&nbsp;|&nbsp;
+  <a routerLink="/not-found">NoteFound</a>
+</div>
+<h1>App Component</h1>
+<h2>Counter : {{counter}}</h2>
+<!-- component here -->
+<app-my-first [author]="'sochoeun'"></app-my-first>
+
+<!--children-->
+<app-my-second [author]="'HELLO'" (clickedCounter)="handleClick()" ></app-my-second>
+
+<hr>
+<!--third-component-->
+<app-my-third (toParent)="handleToParent($event)"></app-my-third>
+
+<!--third-component-receive-->
+<h4>Parent</h4>
+<p>Message from child : <span style="color: red">{{msgFromChild}}</span></p>
+
+<hr>
+<!--service-->
+<app-my-service></app-my-service>
+
+<hr>
+<div class="">
+  <router-outlet></router-outlet>
+</div>
+

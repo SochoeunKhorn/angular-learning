@@ -1,0 +1,7 @@
+== Directive ==
+  - is a class
+  - allow to manipulate the DOM
+
+1. *ngIF : condition
+2. *ngFor : loop
+  let temp of list

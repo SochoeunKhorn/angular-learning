@@ -1,0 +1,6 @@
+=== Route ===
+
+- routes
+- route-link
+- router-out-let : is a directive
+- programmatically

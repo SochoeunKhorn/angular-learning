@@ -1,0 +1,9 @@
+== Angular Fundamental ==
+1. Component
+  ng g c component_name
+2. Template
+  html
+3. Directive
+  - *ngIf, *ngFor
+4. Dependency Injection
+  - constructor(private route:Route,private service:MyService){}
