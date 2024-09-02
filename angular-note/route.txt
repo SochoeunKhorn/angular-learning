@@ -1,6 +1,8 @@
 === Route ===
 
-- routes
+- routes[]
 - route-link
 - router-out-let : is a directive
 - programmatically
+- private route
+- guard is interface or service provider accessibility of route => secure

@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'angular';
   counter = 0;
   msgFromChild:string='';
+  value: string='';
   handleClick():void{
     this.counter++;
   }

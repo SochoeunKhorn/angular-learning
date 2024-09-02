@@ -1,0 +1,4 @@
+== Prime Ng ==
+  npm install primeng  --legacy-peer-deps
+  npm install primeicons
+  npm i primeflex

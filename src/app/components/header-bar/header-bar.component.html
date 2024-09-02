@@ -1,0 +1,33 @@
+<div class="flex flex-column border-bottom-1 border-gray-200 align-items-end pt-3 pb-3">
+  <div class="flex flex-row align-items-center">
+    <button
+    pButton
+    pRipple
+    type="button"
+    icon="pi pi-bell"
+    class="p-button-rounded p-button-secondary p-button-text mr-3"
+    >
+    </button>
+    <p-avatar
+    image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
+    size="small"
+    shape="circle"
+    class="mr-2"
+    ></p-avatar>
+    <div class="mr-3">
+      <p class="text-base mt-1 mb-0 text-gray-700">sochoeun@gmal.com</p>
+      <p class="text-sm mt-1 mb-3 text-gray-700">ADMIN_ROLE</p>
+    </div>
+    <div>
+      <button
+      pButton
+      pRipple
+      type="button"
+      icon="pi pi-angle-down"
+      class="p-button-secondary p-button-text p-button-rounded"
+      (click)="menu.toggle($event)"
+      ></button>
+      <p-menu #menu [popup]="true" [model]="items"></p-menu>
+    </div>
+  </div>
+</div>
